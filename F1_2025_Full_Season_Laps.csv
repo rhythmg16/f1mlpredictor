@@ -1,0 +1,480 @@
+DriverNumber,Abbreviation,FullName,Position,Time,Status,RaceName,Round
+4,NOR,Lando Norris,1.0,0 days 01:42:06.304000,Finished,Australian Grand Prix,1
+1,VER,Max Verstappen,2.0,0 days 00:00:00.895000,Finished,Australian Grand Prix,1
+63,RUS,George Russell,3.0,0 days 00:00:08.481000,Finished,Australian Grand Prix,1
+12,ANT,Andrea Kimi Antonelli,4.0,0 days 00:00:10.135000,Finished,Australian Grand Prix,1
+23,ALB,Alexander Albon,5.0,0 days 00:00:12.773000,Finished,Australian Grand Prix,1
+18,STR,Lance Stroll,6.0,0 days 00:00:17.413000,Finished,Australian Grand Prix,1
+27,HUL,Nico Hulkenberg,7.0,0 days 00:00:18.423000,Finished,Australian Grand Prix,1
+16,LEC,Charles Leclerc,8.0,0 days 00:00:19.826000,Finished,Australian Grand Prix,1
+81,PIA,Oscar Piastri,9.0,0 days 00:00:20.448000,Finished,Australian Grand Prix,1
+44,HAM,Lewis Hamilton,10.0,0 days 00:00:22.473000,Finished,Australian Grand Prix,1
+10,GAS,Pierre Gasly,11.0,0 days 00:00:26.502000,Finished,Australian Grand Prix,1
+22,TSU,Yuki Tsunoda,12.0,0 days 00:00:29.884000,Finished,Australian Grand Prix,1
+31,OCO,Esteban Ocon,13.0,0 days 00:00:33.161000,Finished,Australian Grand Prix,1
+87,BEA,Oliver Bearman,14.0,0 days 00:00:40.351000,Finished,Australian Grand Prix,1
+30,LAW,Liam Lawson,15.0,,Retired,Australian Grand Prix,1
+5,BOR,Gabriel Bortoleto,16.0,,Retired,Australian Grand Prix,1
+14,ALO,Fernando Alonso,17.0,,Retired,Australian Grand Prix,1
+55,SAI,Carlos Sainz,18.0,,Retired,Australian Grand Prix,1
+7,DOO,Jack Doohan,19.0,,Retired,Australian Grand Prix,1
+6,HAD,Isack Hadjar,20.0,,Retired,Australian Grand Prix,1
+81,PIA,Oscar Piastri,1.0,0 days 01:30:55.026000,Finished,Chinese Grand Prix,2
+4,NOR,Lando Norris,2.0,0 days 00:00:09.748000,Finished,Chinese Grand Prix,2
+63,RUS,George Russell,3.0,0 days 00:00:11.097000,Finished,Chinese Grand Prix,2
+1,VER,Max Verstappen,4.0,0 days 00:00:16.656000,Finished,Chinese Grand Prix,2
+31,OCO,Esteban Ocon,5.0,0 days 00:00:49.969000,Finished,Chinese Grand Prix,2
+12,ANT,Kimi Antonelli,6.0,0 days 00:00:53.748000,Finished,Chinese Grand Prix,2
+23,ALB,Alexander Albon,7.0,0 days 00:00:56.321000,Finished,Chinese Grand Prix,2
+87,BEA,Oliver Bearman,8.0,0 days 00:01:01.303000,Finished,Chinese Grand Prix,2
+18,STR,Lance Stroll,9.0,0 days 00:01:10.204000,Finished,Chinese Grand Prix,2
+55,SAI,Carlos Sainz,10.0,0 days 00:01:16.387000,Finished,Chinese Grand Prix,2
+6,HAD,Isack Hadjar,11.0,0 days 00:01:18.875000,Finished,Chinese Grand Prix,2
+30,LAW,Liam Lawson,12.0,0 days 00:01:21.147000,Finished,Chinese Grand Prix,2
+7,DOO,Jack Doohan,13.0,0 days 00:01:28.401000,Finished,Chinese Grand Prix,2
+5,BOR,Gabriel Bortoleto,14.0,0 days 00:00:10.756000,Lapped,Chinese Grand Prix,2
+27,HUL,Nico Hulkenberg,15.0,0 days 00:00:20.226000,Lapped,Chinese Grand Prix,2
+22,TSU,Yuki Tsunoda,16.0,0 days 00:00:23.511000,Lapped,Chinese Grand Prix,2
+14,ALO,Fernando Alonso,17.0,,Retired,Chinese Grand Prix,2
+16,LEC,Charles Leclerc,18.0,,Disqualified,Chinese Grand Prix,2
+44,HAM,Lewis Hamilton,19.0,,Disqualified,Chinese Grand Prix,2
+10,GAS,Pierre Gasly,20.0,,Disqualified,Chinese Grand Prix,2
+1,VER,Max Verstappen,1.0,0 days 01:22:06.983000,Finished,Japanese Grand Prix,3
+4,NOR,Lando Norris,2.0,0 days 00:00:01.423000,Finished,Japanese Grand Prix,3
+81,PIA,Oscar Piastri,3.0,0 days 00:00:02.129000,Finished,Japanese Grand Prix,3
+16,LEC,Charles Leclerc,4.0,0 days 00:00:16.097000,Finished,Japanese Grand Prix,3
+63,RUS,George Russell,5.0,0 days 00:00:17.362000,Finished,Japanese Grand Prix,3
+12,ANT,Kimi Antonelli,6.0,0 days 00:00:18.671000,Finished,Japanese Grand Prix,3
+44,HAM,Lewis Hamilton,7.0,0 days 00:00:29.182000,Finished,Japanese Grand Prix,3
+6,HAD,Isack Hadjar,8.0,0 days 00:00:37.134000,Finished,Japanese Grand Prix,3
+23,ALB,Alexander Albon,9.0,0 days 00:00:40.367000,Finished,Japanese Grand Prix,3
+87,BEA,Oliver Bearman,10.0,0 days 00:00:54.529000,Finished,Japanese Grand Prix,3
+14,ALO,Fernando Alonso,11.0,0 days 00:00:57.333000,Finished,Japanese Grand Prix,3
+22,TSU,Yuki Tsunoda,12.0,0 days 00:00:58.401000,Finished,Japanese Grand Prix,3
+10,GAS,Pierre Gasly,13.0,0 days 00:01:02.122000,Finished,Japanese Grand Prix,3
+55,SAI,Carlos Sainz,14.0,0 days 00:01:14.129000,Finished,Japanese Grand Prix,3
+7,DOO,Jack Doohan,15.0,0 days 00:01:21.314000,Finished,Japanese Grand Prix,3
+27,HUL,Nico Hulkenberg,16.0,0 days 00:01:21.957000,Finished,Japanese Grand Prix,3
+30,LAW,Liam Lawson,17.0,0 days 00:01:22.734000,Finished,Japanese Grand Prix,3
+31,OCO,Esteban Ocon,18.0,0 days 00:01:23.438000,Finished,Japanese Grand Prix,3
+5,BOR,Gabriel Bortoleto,19.0,0 days 00:01:23.897000,Finished,Japanese Grand Prix,3
+18,STR,Lance Stroll,20.0,0 days 00:00:12.929000,Lapped,Japanese Grand Prix,3
+81,PIA,Oscar Piastri,1.0,0 days 01:35:39.435000,Finished,Bahrain Grand Prix,4
+63,RUS,George Russell,2.0,0 days 00:00:15.499000,Finished,Bahrain Grand Prix,4
+4,NOR,Lando Norris,3.0,0 days 00:00:16.273000,Finished,Bahrain Grand Prix,4
+16,LEC,Charles Leclerc,4.0,0 days 00:00:19.679000,Finished,Bahrain Grand Prix,4
+44,HAM,Lewis Hamilton,5.0,0 days 00:00:27.993000,Finished,Bahrain Grand Prix,4
+1,VER,Max Verstappen,6.0,0 days 00:00:34.395000,Finished,Bahrain Grand Prix,4
+10,GAS,Pierre Gasly,7.0,0 days 00:00:36.002000,Finished,Bahrain Grand Prix,4
+31,OCO,Esteban Ocon,8.0,0 days 00:00:44.244000,Finished,Bahrain Grand Prix,4
+22,TSU,Yuki Tsunoda,9.0,0 days 00:00:45.061000,Finished,Bahrain Grand Prix,4
+87,BEA,Oliver Bearman,10.0,0 days 00:00:47.594000,Finished,Bahrain Grand Prix,4
+12,ANT,Kimi Antonelli,11.0,0 days 00:00:48.016000,Finished,Bahrain Grand Prix,4
+23,ALB,Alexander Albon,12.0,0 days 00:00:48.839000,Finished,Bahrain Grand Prix,4
+6,HAD,Isack Hadjar,13.0,0 days 00:00:56.314000,Finished,Bahrain Grand Prix,4
+7,DOO,Jack Doohan,14.0,0 days 00:00:57.806000,Finished,Bahrain Grand Prix,4
+14,ALO,Fernando Alonso,15.0,0 days 00:01:00.340000,Finished,Bahrain Grand Prix,4
+30,LAW,Liam Lawson,16.0,0 days 00:01:04.435000,Finished,Bahrain Grand Prix,4
+18,STR,Lance Stroll,17.0,0 days 00:01:05.489000,Finished,Bahrain Grand Prix,4
+5,BOR,Gabriel Bortoleto,18.0,0 days 00:01:06.872000,Finished,Bahrain Grand Prix,4
+55,SAI,Carlos Sainz,19.0,,Retired,Bahrain Grand Prix,4
+27,HUL,Nico Hulkenberg,20.0,,Disqualified,Bahrain Grand Prix,4
+81,PIA,Oscar Piastri,1.0,0 days 01:21:06.758000,Finished,Saudi Arabian Grand Prix,5
+1,VER,Max Verstappen,2.0,0 days 00:00:02.843000,Finished,Saudi Arabian Grand Prix,5
+16,LEC,Charles Leclerc,3.0,0 days 00:00:08.104000,Finished,Saudi Arabian Grand Prix,5
+4,NOR,Lando Norris,4.0,0 days 00:00:09.196000,Finished,Saudi Arabian Grand Prix,5
+63,RUS,George Russell,5.0,0 days 00:00:27.236000,Finished,Saudi Arabian Grand Prix,5
+12,ANT,Kimi Antonelli,6.0,0 days 00:00:34.688000,Finished,Saudi Arabian Grand Prix,5
+44,HAM,Lewis Hamilton,7.0,0 days 00:00:39.073000,Finished,Saudi Arabian Grand Prix,5
+55,SAI,Carlos Sainz,8.0,0 days 00:01:04.630000,Finished,Saudi Arabian Grand Prix,5
+23,ALB,Alexander Albon,9.0,0 days 00:01:06.515000,Finished,Saudi Arabian Grand Prix,5
+6,HAD,Isack Hadjar,10.0,0 days 00:01:07.091000,Finished,Saudi Arabian Grand Prix,5
+14,ALO,Fernando Alonso,11.0,0 days 00:01:15.917000,Finished,Saudi Arabian Grand Prix,5
+30,LAW,Liam Lawson,12.0,0 days 00:01:18.451000,Finished,Saudi Arabian Grand Prix,5
+87,BEA,Oliver Bearman,13.0,0 days 00:01:19.194000,Finished,Saudi Arabian Grand Prix,5
+31,OCO,Esteban Ocon,14.0,0 days 00:01:39.723000,Finished,Saudi Arabian Grand Prix,5
+27,HUL,Nico Hulkenberg,15.0,0 days 00:00:04.609000,Lapped,Saudi Arabian Grand Prix,5
+18,STR,Lance Stroll,16.0,0 days 00:00:05.527000,Lapped,Saudi Arabian Grand Prix,5
+7,DOO,Jack Doohan,17.0,0 days 00:00:19.264000,Lapped,Saudi Arabian Grand Prix,5
+5,BOR,Gabriel Bortoleto,18.0,0 days 00:00:19.306000,Lapped,Saudi Arabian Grand Prix,5
+22,TSU,Yuki Tsunoda,19.0,,Retired,Saudi Arabian Grand Prix,5
+10,GAS,Pierre Gasly,20.0,,Retired,Saudi Arabian Grand Prix,5
+81,PIA,Oscar Piastri,1.0,0 days 01:28:51.587000,Finished,Miami Grand Prix,6
+4,NOR,Lando Norris,2.0,0 days 00:00:04.630000,Finished,Miami Grand Prix,6
+63,RUS,George Russell,3.0,0 days 00:00:37.644000,Finished,Miami Grand Prix,6
+1,VER,Max Verstappen,4.0,0 days 00:00:39.956000,Finished,Miami Grand Prix,6
+23,ALB,Alexander Albon,5.0,0 days 00:00:48.067000,Finished,Miami Grand Prix,6
+12,ANT,Kimi Antonelli,6.0,0 days 00:00:55.502000,Finished,Miami Grand Prix,6
+16,LEC,Charles Leclerc,7.0,0 days 00:00:57.036000,Finished,Miami Grand Prix,6
+44,HAM,Lewis Hamilton,8.0,0 days 00:01:00.186000,Finished,Miami Grand Prix,6
+55,SAI,Carlos Sainz,9.0,0 days 00:01:00.577000,Finished,Miami Grand Prix,6
+22,TSU,Yuki Tsunoda,10.0,0 days 00:01:14.434000,Finished,Miami Grand Prix,6
+6,HAD,Isack Hadjar,11.0,0 days 00:01:14.602000,Finished,Miami Grand Prix,6
+31,OCO,Esteban Ocon,12.0,0 days 00:01:22.006000,Finished,Miami Grand Prix,6
+10,GAS,Pierre Gasly,13.0,0 days 00:01:30.445000,Finished,Miami Grand Prix,6
+27,HUL,Nico Hulkenberg,14.0,0 days 00:00:01.155000,Lapped,Miami Grand Prix,6
+14,ALO,Fernando Alonso,15.0,0 days 00:00:20.979000,Lapped,Miami Grand Prix,6
+18,STR,Lance Stroll,16.0,0 days 00:00:25.162000,Lapped,Miami Grand Prix,6
+30,LAW,Liam Lawson,17.0,,Retired,Miami Grand Prix,6
+5,BOR,Gabriel Bortoleto,18.0,,Retired,Miami Grand Prix,6
+87,BEA,Oliver Bearman,19.0,,Retired,Miami Grand Prix,6
+7,DOO,Jack Doohan,20.0,,Retired,Miami Grand Prix,6
+1,VER,Max Verstappen,1.0,0 days 01:31:33.199000,Finished,Emilia Romagna Grand Prix,7
+4,NOR,Lando Norris,2.0,0 days 00:00:06.109000,Finished,Emilia Romagna Grand Prix,7
+81,PIA,Oscar Piastri,3.0,0 days 00:00:12.956000,Finished,Emilia Romagna Grand Prix,7
+44,HAM,Lewis Hamilton,4.0,0 days 00:00:14.356000,Finished,Emilia Romagna Grand Prix,7
+23,ALB,Alexander Albon,5.0,0 days 00:00:17.945000,Finished,Emilia Romagna Grand Prix,7
+16,LEC,Charles Leclerc,6.0,0 days 00:00:20.774000,Finished,Emilia Romagna Grand Prix,7
+63,RUS,George Russell,7.0,0 days 00:00:22.034000,Finished,Emilia Romagna Grand Prix,7
+55,SAI,Carlos Sainz,8.0,0 days 00:00:22.898000,Finished,Emilia Romagna Grand Prix,7
+6,HAD,Isack Hadjar,9.0,0 days 00:00:23.586000,Finished,Emilia Romagna Grand Prix,7
+22,TSU,Yuki Tsunoda,10.0,0 days 00:00:26.446000,Finished,Emilia Romagna Grand Prix,7
+14,ALO,Fernando Alonso,11.0,0 days 00:00:27.250000,Finished,Emilia Romagna Grand Prix,7
+27,HUL,Nico Hulkenberg,12.0,0 days 00:00:30.296000,Finished,Emilia Romagna Grand Prix,7
+10,GAS,Pierre Gasly,13.0,0 days 00:00:31.424000,Finished,Emilia Romagna Grand Prix,7
+30,LAW,Liam Lawson,14.0,0 days 00:00:32.511000,Finished,Emilia Romagna Grand Prix,7
+18,STR,Lance Stroll,15.0,0 days 00:00:32.993000,Finished,Emilia Romagna Grand Prix,7
+43,COL,Franco Colapinto,16.0,0 days 00:00:33.411000,Finished,Emilia Romagna Grand Prix,7
+87,BEA,Oliver Bearman,17.0,0 days 00:00:33.808000,Finished,Emilia Romagna Grand Prix,7
+5,BOR,Gabriel Bortoleto,18.0,0 days 00:00:38.572000,Finished,Emilia Romagna Grand Prix,7
+12,ANT,Kimi Antonelli,19.0,,Retired,Emilia Romagna Grand Prix,7
+31,OCO,Esteban Ocon,20.0,,Retired,Emilia Romagna Grand Prix,7
+4,NOR,Lando Norris,1.0,0 days 01:40:33.843000,Finished,Monaco Grand Prix,8
+16,LEC,Charles Leclerc,2.0,0 days 00:00:03.131000,Finished,Monaco Grand Prix,8
+81,PIA,Oscar Piastri,3.0,0 days 00:00:03.658000,Finished,Monaco Grand Prix,8
+1,VER,Max Verstappen,4.0,0 days 00:00:20.572000,Finished,Monaco Grand Prix,8
+44,HAM,Lewis Hamilton,5.0,0 days 00:00:51.387000,Finished,Monaco Grand Prix,8
+6,HAD,Isack Hadjar,6.0,0 days 00:01:05.082000,Lapped,Monaco Grand Prix,8
+31,OCO,Esteban Ocon,7.0,0 days 00:01:06.029000,Lapped,Monaco Grand Prix,8
+30,LAW,Liam Lawson,8.0,0 days 00:01:06.746000,Lapped,Monaco Grand Prix,8
+23,ALB,Alexander Albon,9.0,0 days 00:00:11.869000,Lapped,Monaco Grand Prix,8
+55,SAI,Carlos Sainz,10.0,0 days 00:00:15.232000,Lapped,Monaco Grand Prix,8
+63,RUS,George Russell,11.0,0 days 00:00:33.844000,Lapped,Monaco Grand Prix,8
+87,BEA,Oliver Bearman,12.0,0 days 00:00:54.693000,Lapped,Monaco Grand Prix,8
+43,COL,Franco Colapinto,13.0,0 days 00:00:57.114000,Lapped,Monaco Grand Prix,8
+5,BOR,Gabriel Bortoleto,14.0,0 days 00:01:08.424000,Lapped,Monaco Grand Prix,8
+18,STR,Lance Stroll,15.0,0 days 00:01:10.395000,Lapped,Monaco Grand Prix,8
+27,HUL,Nico Hulkenberg,16.0,0 days 00:01:11.544000,Lapped,Monaco Grand Prix,8
+22,TSU,Yuki Tsunoda,17.0,0 days 00:01:11.849000,Lapped,Monaco Grand Prix,8
+12,ANT,Kimi Antonelli,18.0,0 days 00:00:08.409000,Lapped,Monaco Grand Prix,8
+14,ALO,Fernando Alonso,19.0,,Retired,Monaco Grand Prix,8
+10,GAS,Pierre Gasly,20.0,,Retired,Monaco Grand Prix,8
+81,PIA,Oscar Piastri,1.0,0 days 01:32:57.375000,Finished,Spanish Grand Prix,9
+4,NOR,Lando Norris,2.0,0 days 00:00:02.471000,Finished,Spanish Grand Prix,9
+16,LEC,Charles Leclerc,3.0,0 days 00:00:10.455000,Finished,Spanish Grand Prix,9
+63,RUS,George Russell,4.0,0 days 00:00:11.359000,Finished,Spanish Grand Prix,9
+27,HUL,Nico Hulkenberg,5.0,0 days 00:00:13.648000,Finished,Spanish Grand Prix,9
+44,HAM,Lewis Hamilton,6.0,0 days 00:00:15.508000,Finished,Spanish Grand Prix,9
+6,HAD,Isack Hadjar,7.0,0 days 00:00:16.022000,Finished,Spanish Grand Prix,9
+10,GAS,Pierre Gasly,8.0,0 days 00:00:17.882000,Finished,Spanish Grand Prix,9
+14,ALO,Fernando Alonso,9.0,0 days 00:00:21.564000,Finished,Spanish Grand Prix,9
+1,VER,Max Verstappen,10.0,0 days 00:00:21.826000,Finished,Spanish Grand Prix,9
+30,LAW,Liam Lawson,11.0,0 days 00:00:25.532000,Finished,Spanish Grand Prix,9
+5,BOR,Gabriel Bortoleto,12.0,0 days 00:00:25.996000,Finished,Spanish Grand Prix,9
+22,TSU,Yuki Tsunoda,13.0,0 days 00:00:28.822000,Finished,Spanish Grand Prix,9
+55,SAI,Carlos Sainz,14.0,0 days 00:00:29.309000,Finished,Spanish Grand Prix,9
+43,COL,Franco Colapinto,15.0,0 days 00:00:31.381000,Finished,Spanish Grand Prix,9
+31,OCO,Esteban Ocon,16.0,0 days 00:00:32.197000,Finished,Spanish Grand Prix,9
+87,BEA,Oliver Bearman,17.0,0 days 00:00:37.065000,Finished,Spanish Grand Prix,9
+12,ANT,Kimi Antonelli,18.0,,Retired,Spanish Grand Prix,9
+23,ALB,Alexander Albon,19.0,,Retired,Spanish Grand Prix,9
+63,RUS,George Russell,1.0,0 days 01:31:52.688000,Finished,Canadian Grand Prix,10
+1,VER,Max Verstappen,2.0,0 days 00:00:00.228000,Finished,Canadian Grand Prix,10
+12,ANT,Kimi Antonelli,3.0,0 days 00:00:01.014000,Finished,Canadian Grand Prix,10
+81,PIA,Oscar Piastri,4.0,0 days 00:00:02.109000,Finished,Canadian Grand Prix,10
+16,LEC,Charles Leclerc,5.0,0 days 00:00:03.442000,Finished,Canadian Grand Prix,10
+44,HAM,Lewis Hamilton,6.0,0 days 00:00:10.713000,Finished,Canadian Grand Prix,10
+14,ALO,Fernando Alonso,7.0,0 days 00:00:10.972000,Finished,Canadian Grand Prix,10
+27,HUL,Nico Hulkenberg,8.0,0 days 00:00:15.364000,Finished,Canadian Grand Prix,10
+31,OCO,Esteban Ocon,9.0,0 days 00:00:01.473000,Lapped,Canadian Grand Prix,10
+55,SAI,Carlos Sainz,10.0,0 days 00:00:01.886000,Lapped,Canadian Grand Prix,10
+87,BEA,Oliver Bearman,11.0,0 days 00:00:03.717000,Lapped,Canadian Grand Prix,10
+22,TSU,Yuki Tsunoda,12.0,0 days 00:00:05.456000,Lapped,Canadian Grand Prix,10
+43,COL,Franco Colapinto,13.0,0 days 00:00:07.018000,Lapped,Canadian Grand Prix,10
+5,BOR,Gabriel Bortoleto,14.0,0 days 00:00:07.879000,Lapped,Canadian Grand Prix,10
+10,GAS,Pierre Gasly,15.0,0 days 00:00:07.950000,Lapped,Canadian Grand Prix,10
+6,HAD,Isack Hadjar,16.0,0 days 00:00:08.737000,Lapped,Canadian Grand Prix,10
+18,STR,Lance Stroll,17.0,0 days 00:00:09.063000,Lapped,Canadian Grand Prix,10
+4,NOR,Lando Norris,18.0,,Retired,Canadian Grand Prix,10
+30,LAW,Liam Lawson,19.0,,Retired,Canadian Grand Prix,10
+23,ALB,Alexander Albon,20.0,,Retired,Canadian Grand Prix,10
+4,NOR,Lando Norris,1.0,0 days 01:23:47.693000,Finished,Austrian Grand Prix,11
+81,PIA,Oscar Piastri,2.0,0 days 00:00:02.695000,Finished,Austrian Grand Prix,11
+16,LEC,Charles Leclerc,3.0,0 days 00:00:19.820000,Finished,Austrian Grand Prix,11
+44,HAM,Lewis Hamilton,4.0,0 days 00:00:29.020000,Finished,Austrian Grand Prix,11
+63,RUS,George Russell,5.0,0 days 00:01:02.396000,Finished,Austrian Grand Prix,11
+30,LAW,Liam Lawson,6.0,0 days 00:01:07.754000,Finished,Austrian Grand Prix,11
+14,ALO,Fernando Alonso,7.0,0 days 00:00:01.437000,Lapped,Austrian Grand Prix,11
+5,BOR,Gabriel Bortoleto,8.0,0 days 00:00:01.952000,Lapped,Austrian Grand Prix,11
+27,HUL,Nico Hulkenberg,9.0,0 days 00:00:07.720000,Lapped,Austrian Grand Prix,11
+31,OCO,Esteban Ocon,10.0,0 days 00:00:09.986000,Lapped,Austrian Grand Prix,11
+87,BEA,Oliver Bearman,11.0,0 days 00:00:24.854000,Lapped,Austrian Grand Prix,11
+6,HAD,Isack Hadjar,12.0,0 days 00:00:27.957000,Lapped,Austrian Grand Prix,11
+10,GAS,Pierre Gasly,13.0,0 days 00:00:33.055000,Lapped,Austrian Grand Prix,11
+18,STR,Lance Stroll,14.0,0 days 00:00:34.462000,Lapped,Austrian Grand Prix,11
+43,COL,Franco Colapinto,15.0,0 days 00:00:42.692000,Lapped,Austrian Grand Prix,11
+22,TSU,Yuki Tsunoda,16.0,0 days 00:00:02.979000,Lapped,Austrian Grand Prix,11
+23,ALB,Alexander Albon,17.0,,Retired,Austrian Grand Prix,11
+1,VER,Max Verstappen,18.0,,Retired,Austrian Grand Prix,11
+12,ANT,Kimi Antonelli,19.0,,Retired,Austrian Grand Prix,11
+55,SAI,Carlos Sainz,20.0,,Did not start,Austrian Grand Prix,11
+4,NOR,Lando Norris,1.0,0 days 01:37:15.735000,Finished,British Grand Prix,12
+81,PIA,Oscar Piastri,2.0,0 days 00:00:06.812000,Finished,British Grand Prix,12
+27,HUL,Nico Hulkenberg,3.0,0 days 00:00:34.742000,Finished,British Grand Prix,12
+44,HAM,Lewis Hamilton,4.0,0 days 00:00:39.812000,Finished,British Grand Prix,12
+1,VER,Max Verstappen,5.0,0 days 00:00:56.781000,Finished,British Grand Prix,12
+10,GAS,Pierre Gasly,6.0,0 days 00:00:59.857000,Finished,British Grand Prix,12
+18,STR,Lance Stroll,7.0,0 days 00:01:00.603000,Finished,British Grand Prix,12
+23,ALB,Alexander Albon,8.0,0 days 00:01:04.135000,Finished,British Grand Prix,12
+14,ALO,Fernando Alonso,9.0,0 days 00:01:05.858000,Finished,British Grand Prix,12
+63,RUS,George Russell,10.0,0 days 00:01:10.674000,Finished,British Grand Prix,12
+87,BEA,Oliver Bearman,11.0,0 days 00:01:12.095000,Finished,British Grand Prix,12
+55,SAI,Carlos Sainz,12.0,0 days 00:01:16.592000,Finished,British Grand Prix,12
+31,OCO,Esteban Ocon,13.0,0 days 00:01:17.301000,Finished,British Grand Prix,12
+16,LEC,Charles Leclerc,14.0,0 days 00:01:24.477000,Finished,British Grand Prix,12
+22,TSU,Yuki Tsunoda,15.0,0 days 00:00:32.250000,Lapped,British Grand Prix,12
+12,ANT,Kimi Antonelli,16.0,,Retired,British Grand Prix,12
+6,HAD,Isack Hadjar,17.0,,Retired,British Grand Prix,12
+5,BOR,Gabriel Bortoleto,18.0,,Retired,British Grand Prix,12
+30,LAW,Liam Lawson,19.0,,Retired,British Grand Prix,12
+43,COL,Franco Colapinto,20.0,,Did not start,British Grand Prix,12
+81,PIA,Oscar Piastri,1.0,0 days 01:25:22.601000,Finished,Belgian Grand Prix,13
+4,NOR,Lando Norris,2.0,0 days 00:00:03.415000,Finished,Belgian Grand Prix,13
+16,LEC,Charles Leclerc,3.0,0 days 00:00:20.185000,Finished,Belgian Grand Prix,13
+1,VER,Max Verstappen,4.0,0 days 00:00:21.731000,Finished,Belgian Grand Prix,13
+63,RUS,George Russell,5.0,0 days 00:00:34.863000,Finished,Belgian Grand Prix,13
+23,ALB,Alexander Albon,6.0,0 days 00:00:39.926000,Finished,Belgian Grand Prix,13
+44,HAM,Lewis Hamilton,7.0,0 days 00:00:40.679000,Finished,Belgian Grand Prix,13
+30,LAW,Liam Lawson,8.0,0 days 00:00:52.033000,Finished,Belgian Grand Prix,13
+5,BOR,Gabriel Bortoleto,9.0,0 days 00:00:56.434000,Finished,Belgian Grand Prix,13
+10,GAS,Pierre Gasly,10.0,0 days 00:01:12.714000,Finished,Belgian Grand Prix,13
+87,BEA,Oliver Bearman,11.0,0 days 00:01:13.145000,Finished,Belgian Grand Prix,13
+27,HUL,Nico Hulkenberg,12.0,0 days 00:01:13.628000,Finished,Belgian Grand Prix,13
+22,TSU,Yuki Tsunoda,13.0,0 days 00:01:15.395000,Finished,Belgian Grand Prix,13
+18,STR,Lance Stroll,14.0,0 days 00:01:19.831000,Finished,Belgian Grand Prix,13
+31,OCO,Esteban Ocon,15.0,0 days 00:01:26.063000,Finished,Belgian Grand Prix,13
+12,ANT,Kimi Antonelli,16.0,0 days 00:01:26.721000,Finished,Belgian Grand Prix,13
+14,ALO,Fernando Alonso,17.0,0 days 00:01:27.924000,Finished,Belgian Grand Prix,13
+55,SAI,Carlos Sainz,18.0,0 days 00:01:32.024000,Finished,Belgian Grand Prix,13
+43,COL,Franco Colapinto,19.0,0 days 00:01:35.250000,Finished,Belgian Grand Prix,13
+6,HAD,Isack Hadjar,20.0,0 days 00:00:12.942000,Lapped,Belgian Grand Prix,13
+4,NOR,Lando Norris,1.0,0 days 01:35:21.231000,Finished,Hungarian Grand Prix,14
+81,PIA,Oscar Piastri,2.0,0 days 00:00:00.698000,Finished,Hungarian Grand Prix,14
+63,RUS,George Russell,3.0,0 days 00:00:21.916000,Finished,Hungarian Grand Prix,14
+16,LEC,Charles Leclerc,4.0,0 days 00:00:42.560000,Finished,Hungarian Grand Prix,14
+14,ALO,Fernando Alonso,5.0,0 days 00:00:59.040000,Finished,Hungarian Grand Prix,14
+5,BOR,Gabriel Bortoleto,6.0,0 days 00:01:06.169000,Finished,Hungarian Grand Prix,14
+18,STR,Lance Stroll,7.0,0 days 00:01:08.174000,Finished,Hungarian Grand Prix,14
+30,LAW,Liam Lawson,8.0,0 days 00:01:09.451000,Finished,Hungarian Grand Prix,14
+1,VER,Max Verstappen,9.0,0 days 00:01:12.645000,Finished,Hungarian Grand Prix,14
+12,ANT,Kimi Antonelli,10.0,0 days 00:00:07.649000,Lapped,Hungarian Grand Prix,14
+6,HAD,Isack Hadjar,11.0,0 days 00:00:08.500000,Lapped,Hungarian Grand Prix,14
+44,HAM,Lewis Hamilton,12.0,0 days 00:00:09.861000,Lapped,Hungarian Grand Prix,14
+27,HUL,Nico Hulkenberg,13.0,0 days 00:00:31.268000,Lapped,Hungarian Grand Prix,14
+55,SAI,Carlos Sainz,14.0,0 days 00:00:33.326000,Lapped,Hungarian Grand Prix,14
+23,ALB,Alexander Albon,15.0,0 days 00:00:38.111000,Lapped,Hungarian Grand Prix,14
+31,OCO,Esteban Ocon,16.0,0 days 00:00:45.258000,Lapped,Hungarian Grand Prix,14
+22,TSU,Yuki Tsunoda,17.0,0 days 00:00:46.943000,Lapped,Hungarian Grand Prix,14
+43,COL,Franco Colapinto,18.0,0 days 00:00:47.370000,Lapped,Hungarian Grand Prix,14
+10,GAS,Pierre Gasly,19.0,0 days 00:00:56.344000,Lapped,Hungarian Grand Prix,14
+87,BEA,Oliver Bearman,20.0,,Retired,Hungarian Grand Prix,14
+81,PIA,Oscar Piastri,1.0,0 days 01:38:29.849000,Finished,Dutch Grand Prix,15
+1,VER,Max Verstappen,2.0,0 days 00:00:01.271000,Finished,Dutch Grand Prix,15
+6,HAD,Isack Hadjar,3.0,0 days 00:00:03.233000,Finished,Dutch Grand Prix,15
+63,RUS,George Russell,4.0,0 days 00:00:05.654000,Finished,Dutch Grand Prix,15
+23,ALB,Alexander Albon,5.0,0 days 00:00:06.327000,Finished,Dutch Grand Prix,15
+87,BEA,Oliver Bearman,6.0,0 days 00:00:09.044000,Finished,Dutch Grand Prix,15
+18,STR,Lance Stroll,7.0,0 days 00:00:09.497000,Finished,Dutch Grand Prix,15
+14,ALO,Fernando Alonso,8.0,0 days 00:00:11.709000,Finished,Dutch Grand Prix,15
+22,TSU,Yuki Tsunoda,9.0,0 days 00:00:13.597000,Finished,Dutch Grand Prix,15
+31,OCO,Esteban Ocon,10.0,0 days 00:00:14.063000,Finished,Dutch Grand Prix,15
+43,COL,Franco Colapinto,11.0,0 days 00:00:14.511000,Finished,Dutch Grand Prix,15
+30,LAW,Liam Lawson,12.0,0 days 00:00:17.063000,Finished,Dutch Grand Prix,15
+55,SAI,Carlos Sainz,13.0,0 days 00:00:17.376000,Finished,Dutch Grand Prix,15
+27,HUL,Nico Hulkenberg,14.0,0 days 00:00:19.725000,Finished,Dutch Grand Prix,15
+5,BOR,Gabriel Bortoleto,15.0,0 days 00:00:21.565000,Finished,Dutch Grand Prix,15
+12,ANT,Kimi Antonelli,16.0,0 days 00:00:22.029000,Finished,Dutch Grand Prix,15
+10,GAS,Pierre Gasly,17.0,0 days 00:00:23.629000,Finished,Dutch Grand Prix,15
+4,NOR,Lando Norris,18.0,,Retired,Dutch Grand Prix,15
+16,LEC,Charles Leclerc,19.0,,Retired,Dutch Grand Prix,15
+44,HAM,Lewis Hamilton,20.0,,Retired,Dutch Grand Prix,15
+1,VER,Max Verstappen,1.0,0 days 01:13:24.325000,Finished,Italian Grand Prix,16
+4,NOR,Lando Norris,2.0,0 days 00:00:19.207000,Finished,Italian Grand Prix,16
+81,PIA,Oscar Piastri,3.0,0 days 00:00:21.351000,Finished,Italian Grand Prix,16
+16,LEC,Charles Leclerc,4.0,0 days 00:00:25.624000,Finished,Italian Grand Prix,16
+63,RUS,George Russell,5.0,0 days 00:00:32.881000,Finished,Italian Grand Prix,16
+44,HAM,Lewis Hamilton,6.0,0 days 00:00:37.449000,Finished,Italian Grand Prix,16
+23,ALB,Alexander Albon,7.0,0 days 00:00:50.537000,Finished,Italian Grand Prix,16
+5,BOR,Gabriel Bortoleto,8.0,0 days 00:00:58.484000,Finished,Italian Grand Prix,16
+12,ANT,Kimi Antonelli,9.0,0 days 00:00:59.762000,Finished,Italian Grand Prix,16
+6,HAD,Isack Hadjar,10.0,0 days 00:01:03.891000,Finished,Italian Grand Prix,16
+55,SAI,Carlos Sainz,11.0,0 days 00:01:04.469000,Finished,Italian Grand Prix,16
+87,BEA,Oliver Bearman,12.0,0 days 00:01:19.288000,Finished,Italian Grand Prix,16
+22,TSU,Yuki Tsunoda,13.0,0 days 00:01:20.701000,Finished,Italian Grand Prix,16
+30,LAW,Liam Lawson,14.0,0 days 00:01:22.351000,Finished,Italian Grand Prix,16
+31,OCO,Esteban Ocon,15.0,0 days 00:00:02.135000,Lapped,Italian Grand Prix,16
+10,GAS,Pierre Gasly,16.0,0 days 00:00:05.837000,Lapped,Italian Grand Prix,16
+43,COL,Franco Colapinto,17.0,0 days 00:00:07.448000,Lapped,Italian Grand Prix,16
+18,STR,Lance Stroll,18.0,0 days 00:00:09.301000,Lapped,Italian Grand Prix,16
+14,ALO,Fernando Alonso,19.0,,Retired,Italian Grand Prix,16
+27,HUL,Nico Hulkenberg,20.0,,Did not start,Italian Grand Prix,16
+1,VER,Max Verstappen,1.0,0 days 01:33:26.408000,Finished,Azerbaijan Grand Prix,17
+63,RUS,George Russell,2.0,0 days 00:00:14.609000,Finished,Azerbaijan Grand Prix,17
+55,SAI,Carlos Sainz,3.0,0 days 00:00:19.199000,Finished,Azerbaijan Grand Prix,17
+12,ANT,Kimi Antonelli,4.0,0 days 00:00:21.760000,Finished,Azerbaijan Grand Prix,17
+30,LAW,Liam Lawson,5.0,0 days 00:00:33.290000,Finished,Azerbaijan Grand Prix,17
+22,TSU,Yuki Tsunoda,6.0,0 days 00:00:33.808000,Finished,Azerbaijan Grand Prix,17
+4,NOR,Lando Norris,7.0,0 days 00:00:34.227000,Finished,Azerbaijan Grand Prix,17
+44,HAM,Lewis Hamilton,8.0,0 days 00:00:36.310000,Finished,Azerbaijan Grand Prix,17
+16,LEC,Charles Leclerc,9.0,0 days 00:00:36.774000,Finished,Azerbaijan Grand Prix,17
+6,HAD,Isack Hadjar,10.0,0 days 00:00:38.982000,Finished,Azerbaijan Grand Prix,17
+5,BOR,Gabriel Bortoleto,11.0,0 days 00:01:07.606000,Finished,Azerbaijan Grand Prix,17
+87,BEA,Oliver Bearman,12.0,0 days 00:01:08.262000,Finished,Azerbaijan Grand Prix,17
+23,ALB,Alexander Albon,13.0,0 days 00:01:12.870000,Finished,Azerbaijan Grand Prix,17
+31,OCO,Esteban Ocon,14.0,0 days 00:01:17.580000,Finished,Azerbaijan Grand Prix,17
+14,ALO,Fernando Alonso,15.0,0 days 00:01:18.707000,Finished,Azerbaijan Grand Prix,17
+27,HUL,Nico Hulkenberg,16.0,0 days 00:01:20.237000,Finished,Azerbaijan Grand Prix,17
+18,STR,Lance Stroll,17.0,0 days 00:01:36.392000,Finished,Azerbaijan Grand Prix,17
+10,GAS,Pierre Gasly,18.0,0 days 00:00:03.865000,Lapped,Azerbaijan Grand Prix,17
+43,COL,Franco Colapinto,19.0,0 days 00:00:06.325000,Lapped,Azerbaijan Grand Prix,17
+81,PIA,Oscar Piastri,20.0,,Retired,Azerbaijan Grand Prix,17
+63,RUS,George Russell,1.0,0 days 01:40:22.367000,Finished,Singapore Grand Prix,18
+1,VER,Max Verstappen,2.0,0 days 00:00:05.430000,Finished,Singapore Grand Prix,18
+4,NOR,Lando Norris,3.0,0 days 00:00:06.066000,Finished,Singapore Grand Prix,18
+81,PIA,Oscar Piastri,4.0,0 days 00:00:08.146000,Finished,Singapore Grand Prix,18
+12,ANT,Kimi Antonelli,5.0,0 days 00:00:33.681000,Finished,Singapore Grand Prix,18
+16,LEC,Charles Leclerc,6.0,0 days 00:00:45.996000,Finished,Singapore Grand Prix,18
+14,ALO,Fernando Alonso,7.0,0 days 00:01:20.667000,Finished,Singapore Grand Prix,18
+44,HAM,Lewis Hamilton,8.0,0 days 00:01:25.251000,Finished,Singapore Grand Prix,18
+87,BEA,Oliver Bearman,9.0,0 days 00:01:33.527000,Finished,Singapore Grand Prix,18
+55,SAI,Carlos Sainz,10.0,0 days 00:00:10.754000,Lapped,Singapore Grand Prix,18
+6,HAD,Isack Hadjar,11.0,0 days 00:00:17.335000,Lapped,Singapore Grand Prix,18
+22,TSU,Yuki Tsunoda,12.0,0 days 00:00:19.269000,Lapped,Singapore Grand Prix,18
+18,STR,Lance Stroll,13.0,0 days 00:00:24.490000,Lapped,Singapore Grand Prix,18
+23,ALB,Alexander Albon,14.0,0 days 00:00:25.320000,Lapped,Singapore Grand Prix,18
+30,LAW,Liam Lawson,15.0,0 days 00:00:27.145000,Lapped,Singapore Grand Prix,18
+43,COL,Franco Colapinto,16.0,0 days 00:00:42.890000,Lapped,Singapore Grand Prix,18
+5,BOR,Gabriel Bortoleto,17.0,0 days 00:00:46.753000,Lapped,Singapore Grand Prix,18
+31,OCO,Esteban Ocon,18.0,0 days 00:00:47.133000,Lapped,Singapore Grand Prix,18
+10,GAS,Pierre Gasly,19.0,0 days 00:00:47.461000,Lapped,Singapore Grand Prix,18
+27,HUL,Nico Hulkenberg,20.0,0 days 00:00:49.040000,Lapped,Singapore Grand Prix,18
+1,VER,Max Verstappen,1.0,0 days 01:34:00.161000,Finished,United States Grand Prix,19
+4,NOR,Lando Norris,2.0,0 days 00:00:07.959000,Finished,United States Grand Prix,19
+16,LEC,Charles Leclerc,3.0,0 days 00:00:15.373000,Finished,United States Grand Prix,19
+44,HAM,Lewis Hamilton,4.0,0 days 00:00:28.536000,Finished,United States Grand Prix,19
+81,PIA,Oscar Piastri,5.0,0 days 00:00:29.678000,Finished,United States Grand Prix,19
+63,RUS,George Russell,6.0,0 days 00:00:33.456000,Finished,United States Grand Prix,19
+22,TSU,Yuki Tsunoda,7.0,0 days 00:00:52.714000,Finished,United States Grand Prix,19
+27,HUL,Nico Hulkenberg,8.0,0 days 00:00:57.249000,Finished,United States Grand Prix,19
+87,BEA,Oliver Bearman,9.0,0 days 00:01:04.722000,Finished,United States Grand Prix,19
+14,ALO,Fernando Alonso,10.0,0 days 00:01:10.001000,Finished,United States Grand Prix,19
+30,LAW,Liam Lawson,11.0,0 days 00:01:13.209000,Finished,United States Grand Prix,19
+18,STR,Lance Stroll,12.0,0 days 00:01:14.778000,Finished,United States Grand Prix,19
+12,ANT,Kimi Antonelli,13.0,0 days 00:01:15.746000,Finished,United States Grand Prix,19
+23,ALB,Alexander Albon,14.0,0 days 00:01:20,Finished,United States Grand Prix,19
+31,OCO,Esteban Ocon,15.0,0 days 00:01:23.043000,Finished,United States Grand Prix,19
+6,HAD,Isack Hadjar,16.0,0 days 00:01:32.807000,Finished,United States Grand Prix,19
+43,COL,Franco Colapinto,17.0,0 days 00:00:02.307000,Lapped,United States Grand Prix,19
+5,BOR,Gabriel Bortoleto,18.0,0 days 00:00:03.557000,Lapped,United States Grand Prix,19
+10,GAS,Pierre Gasly,19.0,0 days 00:00:06.155000,Lapped,United States Grand Prix,19
+55,SAI,Carlos Sainz,20.0,,Retired,United States Grand Prix,19
+4,NOR,Lando Norris,1.0,0 days 01:37:58.574000,Finished,Mexico City Grand Prix,20
+16,LEC,Charles Leclerc,2.0,0 days 00:00:30.324000,Finished,Mexico City Grand Prix,20
+1,VER,Max Verstappen,3.0,0 days 00:00:31.049000,Finished,Mexico City Grand Prix,20
+87,BEA,Oliver Bearman,4.0,0 days 00:00:40.955000,Finished,Mexico City Grand Prix,20
+81,PIA,Oscar Piastri,5.0,0 days 00:00:42.065000,Finished,Mexico City Grand Prix,20
+12,ANT,Kimi Antonelli,6.0,0 days 00:00:47.837000,Finished,Mexico City Grand Prix,20
+63,RUS,George Russell,7.0,0 days 00:00:50.287000,Finished,Mexico City Grand Prix,20
+44,HAM,Lewis Hamilton,8.0,0 days 00:00:56.446000,Finished,Mexico City Grand Prix,20
+31,OCO,Esteban Ocon,9.0,0 days 00:01:15.464000,Finished,Mexico City Grand Prix,20
+5,BOR,Gabriel Bortoleto,10.0,0 days 00:01:16.863000,Finished,Mexico City Grand Prix,20
+22,TSU,Yuki Tsunoda,11.0,0 days 00:01:19.048000,Finished,Mexico City Grand Prix,20
+23,ALB,Alexander Albon,12.0,0 days 00:00:02.450000,Lapped,Mexico City Grand Prix,20
+6,HAD,Isack Hadjar,13.0,0 days 00:00:06.656000,Lapped,Mexico City Grand Prix,20
+18,STR,Lance Stroll,14.0,0 days 00:00:07.035000,Lapped,Mexico City Grand Prix,20
+10,GAS,Pierre Gasly,15.0,0 days 00:00:44.080000,Lapped,Mexico City Grand Prix,20
+43,COL,Franco Colapinto,16.0,0 days 00:00:44.376000,Lapped,Mexico City Grand Prix,20
+55,SAI,Carlos Sainz,17.0,,Retired,Mexico City Grand Prix,20
+14,ALO,Fernando Alonso,18.0,,Retired,Mexico City Grand Prix,20
+27,HUL,Nico Hulkenberg,19.0,,Retired,Mexico City Grand Prix,20
+30,LAW,Liam Lawson,20.0,,Retired,Mexico City Grand Prix,20
+4,NOR,Lando Norris,1.0,0 days 01:32:01.596000,Finished,São Paulo Grand Prix,21
+12,ANT,Kimi Antonelli,2.0,0 days 00:00:10.388000,Finished,São Paulo Grand Prix,21
+1,VER,Max Verstappen,3.0,0 days 00:00:10.750000,Finished,São Paulo Grand Prix,21
+63,RUS,George Russell,4.0,0 days 00:00:15.267000,Finished,São Paulo Grand Prix,21
+81,PIA,Oscar Piastri,5.0,0 days 00:00:15.749000,Finished,São Paulo Grand Prix,21
+87,BEA,Oliver Bearman,6.0,0 days 00:00:29.630000,Finished,São Paulo Grand Prix,21
+30,LAW,Liam Lawson,7.0,0 days 00:00:52.642000,Finished,São Paulo Grand Prix,21
+6,HAD,Isack Hadjar,8.0,0 days 00:00:52.873000,Finished,São Paulo Grand Prix,21
+27,HUL,Nico Hulkenberg,9.0,0 days 00:00:53.324000,Finished,São Paulo Grand Prix,21
+10,GAS,Pierre Gasly,10.0,0 days 00:00:53.914000,Finished,São Paulo Grand Prix,21
+23,ALB,Alexander Albon,11.0,0 days 00:00:54.184000,Finished,São Paulo Grand Prix,21
+31,OCO,Esteban Ocon,12.0,0 days 00:00:54.696000,Finished,São Paulo Grand Prix,21
+55,SAI,Carlos Sainz,13.0,0 days 00:00:55.420000,Finished,São Paulo Grand Prix,21
+14,ALO,Fernando Alonso,14.0,0 days 00:00:55.766000,Finished,São Paulo Grand Prix,21
+43,COL,Franco Colapinto,15.0,0 days 00:00:57.777000,Finished,São Paulo Grand Prix,21
+18,STR,Lance Stroll,16.0,0 days 00:00:58.247000,Finished,São Paulo Grand Prix,21
+22,TSU,Yuki Tsunoda,17.0,0 days 00:01:09.176000,Finished,São Paulo Grand Prix,21
+44,HAM,Lewis Hamilton,18.0,,Retired,São Paulo Grand Prix,21
+16,LEC,Charles Leclerc,19.0,,Retired,São Paulo Grand Prix,21
+5,BOR,Gabriel Bortoleto,20.0,,Retired,São Paulo Grand Prix,21
+1,VER,Max Verstappen,1.0,0 days 01:21:08.429000,Finished,Las Vegas Grand Prix,22
+63,RUS,George Russell,2.0,0 days 00:00:23.546000,Finished,Las Vegas Grand Prix,22
+12,ANT,Kimi Antonelli,3.0,0 days 00:00:30.488000,Finished,Las Vegas Grand Prix,22
+16,LEC,Charles Leclerc,4.0,0 days 00:00:30.678000,Finished,Las Vegas Grand Prix,22
+55,SAI,Carlos Sainz,5.0,0 days 00:00:34.924000,Finished,Las Vegas Grand Prix,22
+6,HAD,Isack Hadjar,6.0,0 days 00:00:45.257000,Finished,Las Vegas Grand Prix,22
+27,HUL,Nico Hulkenberg,7.0,0 days 00:00:51.134000,Finished,Las Vegas Grand Prix,22
+44,HAM,Lewis Hamilton,8.0,0 days 00:00:59.369000,Finished,Las Vegas Grand Prix,22
+31,OCO,Esteban Ocon,9.0,0 days 00:01:00.635000,Finished,Las Vegas Grand Prix,22
+87,BEA,Oliver Bearman,10.0,0 days 00:01:10.549000,Finished,Las Vegas Grand Prix,22
+14,ALO,Fernando Alonso,11.0,0 days 00:01:25.308000,Finished,Las Vegas Grand Prix,22
+22,TSU,Yuki Tsunoda,12.0,0 days 00:01:26.974000,Finished,Las Vegas Grand Prix,22
+10,GAS,Pierre Gasly,13.0,0 days 00:01:31.702000,Finished,Las Vegas Grand Prix,22
+30,LAW,Liam Lawson,14.0,0 days 00:00:03.291000,Lapped,Las Vegas Grand Prix,22
+43,COL,Franco Colapinto,15.0,0 days 00:00:10.459000,Lapped,Las Vegas Grand Prix,22
+23,ALB,Alexander Albon,16.0,,Retired,Las Vegas Grand Prix,22
+5,BOR,Gabriel Bortoleto,17.0,,Retired,Las Vegas Grand Prix,22
+18,STR,Lance Stroll,18.0,,Retired,Las Vegas Grand Prix,22
+4,NOR,Lando Norris,19.0,,Disqualified,Las Vegas Grand Prix,22
+81,PIA,Oscar Piastri,20.0,,Disqualified,Las Vegas Grand Prix,22
+1,VER,Max Verstappen,1.0,0 days 01:24:38.241000,Finished,Qatar Grand Prix,23
+81,PIA,Oscar Piastri,2.0,0 days 00:00:07.995000,Finished,Qatar Grand Prix,23
+55,SAI,Carlos Sainz,3.0,0 days 00:00:22.665000,Finished,Qatar Grand Prix,23
+4,NOR,Lando Norris,4.0,0 days 00:00:23.315000,Finished,Qatar Grand Prix,23
+12,ANT,Kimi Antonelli,5.0,0 days 00:00:28.317000,Finished,Qatar Grand Prix,23
+63,RUS,George Russell,6.0,0 days 00:00:48.599000,Finished,Qatar Grand Prix,23
+14,ALO,Fernando Alonso,7.0,0 days 00:00:54.045000,Finished,Qatar Grand Prix,23
+16,LEC,Charles Leclerc,8.0,0 days 00:00:56.785000,Finished,Qatar Grand Prix,23
+30,LAW,Liam Lawson,9.0,0 days 00:01:00.073000,Finished,Qatar Grand Prix,23
+22,TSU,Yuki Tsunoda,10.0,0 days 00:01:01.770000,Finished,Qatar Grand Prix,23
+23,ALB,Alexander Albon,11.0,0 days 00:01:06.931000,Finished,Qatar Grand Prix,23
+44,HAM,Lewis Hamilton,12.0,0 days 00:01:17.730000,Finished,Qatar Grand Prix,23
+5,BOR,Gabriel Bortoleto,13.0,0 days 00:01:24.812000,Finished,Qatar Grand Prix,23
+43,COL,Franco Colapinto,14.0,0 days 00:00:03.283000,Lapped,Qatar Grand Prix,23
+31,OCO,Esteban Ocon,15.0,0 days 00:00:04.253000,Lapped,Qatar Grand Prix,23
+10,GAS,Pierre Gasly,16.0,0 days 00:00:04.941000,Lapped,Qatar Grand Prix,23
+18,STR,Lance Stroll,17.0,,Retired,Qatar Grand Prix,23
+6,HAD,Isack Hadjar,18.0,,Retired,Qatar Grand Prix,23
+87,BEA,Oliver Bearman,19.0,,Retired,Qatar Grand Prix,23
+27,HUL,Nico Hulkenberg,20.0,,Retired,Qatar Grand Prix,23
+1,VER,Max Verstappen,1.0,0 days 01:26:07.469000,Finished,Abu Dhabi Grand Prix,24
+81,PIA,Oscar Piastri,2.0,0 days 00:00:12.594000,Finished,Abu Dhabi Grand Prix,24
+4,NOR,Lando Norris,3.0,0 days 00:00:16.572000,Finished,Abu Dhabi Grand Prix,24
+16,LEC,Charles Leclerc,4.0,0 days 00:00:23.279000,Finished,Abu Dhabi Grand Prix,24
+63,RUS,George Russell,5.0,0 days 00:00:48.563000,Finished,Abu Dhabi Grand Prix,24
+14,ALO,Fernando Alonso,6.0,0 days 00:01:07.562000,Finished,Abu Dhabi Grand Prix,24
+31,OCO,Esteban Ocon,7.0,0 days 00:01:09.876000,Finished,Abu Dhabi Grand Prix,24
+44,HAM,Lewis Hamilton,8.0,0 days 00:01:12.670000,Finished,Abu Dhabi Grand Prix,24
+27,HUL,Nico Hulkenberg,9.0,0 days 00:01:19.014000,Finished,Abu Dhabi Grand Prix,24
+18,STR,Lance Stroll,10.0,0 days 00:01:19.523000,Finished,Abu Dhabi Grand Prix,24
+5,BOR,Gabriel Bortoleto,11.0,0 days 00:01:21.043000,Finished,Abu Dhabi Grand Prix,24
+87,BEA,Oliver Bearman,12.0,0 days 00:01:21.166000,Finished,Abu Dhabi Grand Prix,24
+55,SAI,Carlos Sainz,13.0,0 days 00:01:22.158000,Finished,Abu Dhabi Grand Prix,24
+22,TSU,Yuki Tsunoda,14.0,0 days 00:01:23.794000,Finished,Abu Dhabi Grand Prix,24
+12,ANT,Kimi Antonelli,15.0,0 days 00:01:24.399000,Finished,Abu Dhabi Grand Prix,24
+23,ALB,Alexander Albon,16.0,0 days 00:01:30.327000,Finished,Abu Dhabi Grand Prix,24
+6,HAD,Isack Hadjar,17.0,0 days 00:00:01.327000,Lapped,Abu Dhabi Grand Prix,24
+30,LAW,Liam Lawson,18.0,0 days 00:00:04.659000,Lapped,Abu Dhabi Grand Prix,24
+10,GAS,Pierre Gasly,19.0,0 days 00:00:11.908000,Lapped,Abu Dhabi Grand Prix,24
+43,COL,Franco Colapinto,20.0,0 days 00:00:14.003000,Lapped,Abu Dhabi Grand Prix,24
