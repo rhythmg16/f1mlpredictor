@@ -1,2 +1,7 @@
 f1cache/
 cache/
+*.sqlite
+*.csv
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
