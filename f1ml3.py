@@ -5,6 +5,9 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+cache_dir = os.path.join(BASE_DIR, "cache")
+
 cache_dir = os.path.expanduser("~/Desktop/personal_projects/f1mlpredictor/cache")
 if not os.path.exists(cache_dir):
     os.makedirs(cache_dir)
@@ -44,7 +47,7 @@ def build_training_data(years): #so still trying to create the best csv to train
     combined['PreviousPoints'] = combined.groupby('Abbreviation')['Points'].shift(1) #previous points from last year
     combined = combined.dropna(subset=['PreviousPoints']) #drops the first season
     combined = combined.reset_index(drop=True)
-    combined.to_csv('F1_Training_Data.csv', index=False) #saves the hopefully final csv
+    combined.to_csv(os.path.join(BASE_DIR, 'F1_Training_Data.csv'), index=False)    
     print("Done! F1_Training_Data.csv saved.")
     return combined
 
@@ -68,8 +71,9 @@ def season_csv(year):
         final_df.to_csv(f'F1_{year}_Full_Season_Laps.csv', index=False) #puts it in a file in the same folder so we can use it
         print("Done! File saved.") #so earlier the problem was that it wasn't saving in a file, just kind of loading it
 
-teams = pd.read_csv("F1_Training_Data.csv")
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(BASE_DIR, "F1_Training_Data.csv")
+teams = pd.read_csv(csv_path)
 teams.select_dtypes(include=['number']).corr()["Points"] #looking at the correlation
 
 teams[teams.isnull().any(axis=1)] #checking if there any rows with missing values
@@ -85,7 +89,7 @@ test = teams[teams["Season"] >= 2024].copy() #splits for testing the data
 
 reg = LinearRegression() #enables to train and make predictions using a linear model
 
-predictors = ["SeasonRankInverted", "PreviousPoints"] #using these two columns to predict the points
+predictors = ["SeasonRankInverted", "PreviousPoints", ] #using these two columns to predict the points
 target = "Points"
 
 reg.fit(train[predictors], train[target]) # so now the algorithm will be trained on the training data set
@@ -100,5 +104,20 @@ from sklearn.metrics import mean_absolute_error
 error = mean_absolute_error(test["Points"], test["predictions"])
 print(error) # we were within 45 points of how many points a team actually won
 print(teams.describe()["Points"]) #since 45 is below the standard deviation, this is a good error
-testing = test[test["TeamName"] == "Mercedes"]
-print(testing)
+# print(test[["Season", "FullName", "TeamName", "Points", "predictions"]].to_string(index=False))
+errors = (test["Points"] - test["predictions"]).abs()
+# print(errors)
+error_by_team = errors.groupby(test["TeamName"]).mean() #grouping the teams
+print(error_by_team)
+points_by_team = test["Points"].groupby(test["TeamName"]).mean() #how many points each team earned on average
+error_ratio = error_by_team / points_by_team
+# print(error_ratio)
+# print(error_ratio.sort_values())
+
+error_by_driver = errors.groupby(test["Abbreviation"]).mean()
+print(error_by_driver)
+points_by_driver = test["Points"].groupby(test["Abbreviation"]).mean()
+error_ratio_driver = error_by_driver / points_by_driver
+import numpy as np
+error_ratio_driver = error_ratio_driver[np.isfinite(error_ratio_driver)]
+print(error_ratio_driver.sort_values())
