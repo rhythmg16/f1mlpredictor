@@ -121,3 +121,43 @@ error_ratio_driver = error_by_driver / points_by_driver
 import numpy as np
 error_ratio_driver = error_ratio_driver[np.isfinite(error_ratio_driver)]
 print(error_ratio_driver.sort_values())
+
+#prediciting the drivers championship 2026
+def predict_next_season(year):
+    base = teams[teams["Season"] == year].copy() #takes all the data from year as the starting points for predictions
+    base["Season"] = year + 1
+    base["PreviousPoints"] = base["Points"]
+    base["SeasonRankInverted"] = 1/ base["SeasonRank"] #sets the season to year+1, and shifts previous points to years points and
+    #recalculating the season rank
+    base["predicted_points"] = reg.predict(base[predictors])#gives the predictiosn to the linear regression model
+
+    return base[[
+        "Season", "Abbreviation", "FullName", "TeamName",
+        "PreviousPoints", "SeasonRank", "predicted_points"
+    ]]
+
+pred_2026 = predict_next_season(2025)
+
+pred_2026 = pred_2026.sort_values("predicted_points", ascending=False).reset_index(drop=True)
+pred_2026["predicted_rank"] = pred_2026.index + 1 #sorting into predicted points highest to lowest
+
+print(pred_2026.to_string(index=False))
+
+top_driver = pred_2026.iloc[0] #first row is top driver
+print(top_driver[["predicted_rank", "Abbreviation", "FullName", "TeamName", "predicted_points"]])
+
+#predicting the constructors championship
+constructors_2026 = (
+    pred_2026.groupby("TeamName", as_index = False)["predicted_points"].sum() #grouping the drivers by teams and addign up predicted points
+    .sort_values("predicted_points", ascending=False)
+)
+constructors_2026["predicted_rank"] = (
+    constructors_2026["predicted_points"]#ranking them
+    .rank(ascending=False, method="dense")
+    .astype(int)
+)
+
+print(constructors_2026.to_string(index=False))
+
+top_constructor = constructors_2026.iloc[0]#top team is the winner
+print(top_constructor)
