@@ -6,6 +6,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 cache_dir = os.path.expanduser("~/Desktop/personal_projects/f1mlpredictor/cache")
 if not os.path.exists(cache_dir):
@@ -126,7 +127,11 @@ def build_midseason_training_data(years, up_to_race):
     return combined
 
 def predict_next_season(year, up_to_race):
-    base = pd.read_csv(os.path.join(BASE_DIR, f'F1_{year}_Midseason_race{up_to_race}.csv')) #mid-season data up to the cutoff race
+    current_midseason_path = os.path.join(BASE_DIR, f'F1_{year}_Midseason_race{up_to_race}.csv')
+    if not os.path.exists(current_midseason_path):
+        get_midseason_standings(year, up_to_race).to_csv(current_midseason_path, index=False)
+
+    base = pd.read_csv(current_midseason_path) #mid-season data up to the cutoff race
     prev = pd.read_csv(os.path.join(BASE_DIR, f'F1_{year - 1}_Standings.csv')) #full previous season final standings
     prev = prev[['Abbreviation', 'Points']].rename(columns={'Points': 'PreviousPoints'})
     base = base.merge(prev, on='Abbreviation', how='left')
@@ -139,10 +144,13 @@ def predict_next_season(year, up_to_race):
         'PreviousPoints', 'current_rank', 'predicted_points'
     ]]
 
-up_to_race = 10  # change this to however many races have happened in 2026
+up_to_race = 13  # change this to however many races have happened in 2026
 # get_midseason_standings(2026, up_to_race).to_csv(os.path.join(BASE_DIR, f'F1_2026_Midseason_race{up_to_race}.csv'), index=False)
 # get_standings(2025).to_csv(os.path.join(BASE_DIR, 'F1_2025_Standings.csv'), index=False)
-training_data = pd.read_csv(os.path.join(BASE_DIR, f'F1_Midseason_Training_Data_race{up_to_race}.csv'))
+training_data_path = os.path.join(BASE_DIR, f'F1_Midseason_Training_Data_race{up_to_race}.csv')
+if not os.path.exists(training_data_path):
+    build_midseason_training_data([2021, 2022, 2023, 2024, 2025], up_to_race)
+training_data = pd.read_csv(training_data_path)
 
 predictors = ['points_so_far', 'avg_points_per_race', 'current_rank', 'PreviousPoints']
 target = 'FinalPoints'
