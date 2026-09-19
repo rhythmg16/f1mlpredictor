@@ -6,10 +6,11 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 
 from data import (
-    BASE_DIR,
     ensure_previous_standings_data,
     ensure_training_data,
     ensure_2026_midseason_data,
+    get_latest_completed_race,
+    get_season_progress,
 )
 
 PREDICTORS = ["points_so_far", "avg_points_per_race", "current_rank", "PreviousPoints"]
@@ -32,8 +33,8 @@ def train_model(training_data):
     return reg, test, mae
 
 
-def predict_next_season(year, up_to_race, reg):
-    current_midseason_path = ensure_2026_midseason_data(up_to_race)
+def predict_next_season(year, up_to_race, reg, refresh=False):
+    current_midseason_path = ensure_2026_midseason_data(up_to_race, force=refresh)
     prev_standings_path = ensure_previous_standings_data(year - 1)
 
     base = pd.read_csv(current_midseason_path)
@@ -57,12 +58,16 @@ def predict_next_season(year, up_to_race, reg):
     ]]
 
 
-def get_prediction_summary(year=2026, up_to_race=13):
+def get_prediction_summary(year=2026, up_to_race=None, refresh=False):
+    season = get_season_progress(year)
+    if up_to_race is None:
+        up_to_race = get_latest_completed_race(year)
+
     training_path = ensure_training_data(up_to_race)
     training_data = pd.read_csv(training_path)
 
     reg, test, mae = train_model(training_data)
-    pred_2026 = predict_next_season(year, up_to_race, reg)
+    pred_2026 = predict_next_season(year, up_to_race, reg, refresh=refresh)
     pred_2026 = pred_2026.sort_values("predicted_points", ascending=False).reset_index(drop=True)
     pred_2026["predicted_rank"] = pred_2026.index + 1
 
@@ -79,12 +84,15 @@ def get_prediction_summary(year=2026, up_to_race=13):
         "mae": mae,
         "predicted_drivers": pred_2026,
         "predicted_constructors": constructors,
+        "season": season,
+        "up_to_race": up_to_race,
     }
     return summary
 
 
 if __name__ == "__main__":
-    summary = get_prediction_summary(year=2026, up_to_race=13)
+    summary = get_prediction_summary(year=2026)
+    print(f"Using data through race {summary['up_to_race']}")
     print(f"Mean Absolute Error: {summary['mae']:.2f} points")
     print(summary["predicted_drivers"].head(10).to_string(index=False))
     print(summary["predicted_constructors"].head(10).to_string(index=False))

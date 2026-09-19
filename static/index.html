@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1ML — Championship Predictor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="track-lines" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#">F1<span>ML</span></a>
+    <nav class="nav">
+      <a href="#garage">Garage</a>
+      <a href="#standings">Standings</a>
+      <a href="#model">Model</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Linear regression · mid-season snapshot</p>
+        <h1 class="brand">F1<span>ML</span></h1>
+        <p class="tagline">
+          Predict the drivers' and constructors' championships from mid-season form,
+          previous-year points, and current rank.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#garage">Spin the cars</a>
+          <a class="btn ghost" href="#standings">View predictions</a>
+          <button class="btn ghost" id="refresh-btn" type="button">Refresh model</button>
+        </div>
+      </div>
+
+      <aside class="hero-panel" id="champion-card" aria-live="polite">
+        <div class="panel-label">Projected champion</div>
+        <div class="champion-skeleton">Loading predictions…</div>
+      </aside>
+    </section>
+
+    <section class="garage" id="garage">
+      <div class="garage-stage" id="garage-stage">
+        <div class="garage-rank" id="garage-rank" aria-hidden="true">1</div>
+        <canvas id="car-canvas"></canvas>
+
+        <div class="garage-info">
+          <div class="garage-heading">
+            <h2 id="garage-team-name">Loading…</h2>
+            <span class="garage-pts" id="garage-pts">— PTS</span>
+          </div>
+          <p class="garage-drivers" id="garage-drivers">—</p>
+        </div>
+      </div>
+
+      <div class="team-rail" id="team-rail" role="tablist" aria-label="Select constructor"></div>
+    </section>
+
+    <section class="controls" id="standings">
+      <div class="controls-inner">
+        <div class="control-group season-meta">
+          <span class="meta-label">Season progress</span>
+          <p class="meta-value" id="season-progress">Detecting current race…</p>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Championship type">
+          <button class="tab active" role="tab" aria-selected="true" data-tab="drivers">Drivers</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="constructors">Constructors</button>
+        </div>
+        <p class="status" id="status-text">Loading…</p>
+      </div>
+    </section>
+
+    <section class="standings">
+      <div class="table-wrap" id="drivers-panel" role="tabpanel">
+        <table class="standings-table" id="drivers-table">
+          <thead>
+            <tr>
+              <th>Pos</th>
+              <th>Driver</th>
+              <th>Team</th>
+              <th>Prev pts</th>
+              <th>Current</th>
+              <th>Predicted</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="table-wrap hidden" id="constructors-panel" role="tabpanel" hidden>
+        <table class="standings-table" id="constructors-table">
+          <thead>
+            <tr>
+              <th>Pos</th>
+              <th>Team</th>
+              <th>Predicted pts</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="model" id="model">
+      <h2>How the model works</h2>
+      <p class="model-lead">
+        A linear regression trained on mid-season snapshots from recent seasons,
+        then applied to the current championship.
+      </p>
+      <div class="model-grid">
+        <article class="model-stat">
+          <span class="stat-value" id="mae-value">—</span>
+          <span class="stat-label">Mean absolute error (pts)</span>
+        </article>
+        <article class="model-stat">
+          <span class="stat-value" id="year-value">2026</span>
+          <span class="stat-label">Prediction season</span>
+        </article>
+        <article class="model-stat features">
+          <span class="stat-label">Predictors</span>
+          <ul id="predictors-list">
+            <li>points so far</li>
+            <li>avg points / race</li>
+            <li>current rank</li>
+            <li>previous season points</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>F1ML · personal ML project · not affiliated with Formula 1</p>
+  </footer>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="/js/car-viewer.js"></script>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

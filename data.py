@@ -135,14 +135,84 @@ def build_midseason_training_data(years, up_to_race):
     return combined
 
 
+def get_season_progress(year):
+    """Return the latest completed race and next race from the live calendar."""
+    schedule = fastf1.get_event_schedule(year)
+    races = schedule[schedule["EventFormat"] != "testing"].copy()
+    if races.empty:
+        return {
+            "year": year,
+            "latest_completed_race": 0,
+            "latest_completed_name": None,
+            "next_race": None,
+            "next_race_name": None,
+            "next_race_date": None,
+            "total_races": 0,
+        }
+
+    now = pd.Timestamp.now(tz="UTC")
+    race_times = pd.to_datetime(races["Session5DateUtc"], utc=True)
+    completed = races[race_times <= now]
+    upcoming = races[race_times > now]
+
+    latest_completed_race = int(completed["RoundNumber"].max()) if not completed.empty else 0
+    latest_completed_name = (
+        completed.sort_values("RoundNumber").iloc[-1]["EventName"]
+        if not completed.empty
+        else None
+    )
+    next_race = int(upcoming["RoundNumber"].min()) if not upcoming.empty else None
+    next_row = upcoming.sort_values("RoundNumber").iloc[0] if not upcoming.empty else None
+
+    return {
+        "year": year,
+        "latest_completed_race": latest_completed_race,
+        "latest_completed_name": latest_completed_name,
+        "next_race": next_race,
+        "next_race_name": None if next_row is None else next_row["EventName"],
+        "next_race_date": None if next_row is None else str(pd.to_datetime(next_row["Session5DateUtc"], utc=True)),
+        "total_races": int(races["RoundNumber"].max()),
+    }
+
+
+def get_latest_completed_race(year):
+    progress = get_season_progress(year)
+    return max(1, progress["latest_completed_race"])
+
+
 def get_training_data_path(up_to_race):
     return os.path.join(BASE_DIR, f"F1_Midseason_Training_Data_race{up_to_race}.csv")
 
 
+def _find_nearest_training_path(up_to_race):
+    matches = []
+    for name in os.listdir(BASE_DIR):
+        if not name.startswith("F1_Midseason_Training_Data_race") or not name.endswith(".csv"):
+            continue
+        try:
+            race_num = int(name.replace("F1_Midseason_Training_Data_race", "").replace(".csv", ""))
+        except ValueError:
+            continue
+        matches.append((abs(race_num - up_to_race), race_num, os.path.join(BASE_DIR, name)))
+
+    if not matches:
+        return None
+    matches.sort()
+    return matches[0][2]
+
+
 def ensure_training_data(up_to_race, years=(2021, 2022, 2023, 2024, 2025)):
     path = get_training_data_path(up_to_race)
-    if not os.path.exists(path):
-        build_midseason_training_data(list(years), up_to_race)
+    if os.path.exists(path):
+        return path
+
+    nearest = _find_nearest_training_path(up_to_race)
+    if nearest is not None:
+        # Reuse the closest existing mid-season training cut so the site
+        # can keep up with new races without a full multi-year rebuild.
+        return nearest
+
+    build_midseason_training_data(list(years), up_to_race)
     return path
 
 
@@ -150,10 +220,15 @@ def get_2026_midseason_path(up_to_race):
     return os.path.join(BASE_DIR, f"F1_2026_Midseason_race{up_to_race}.csv")
 
 
-def ensure_2026_midseason_data(up_to_race):
+def ensure_2026_midseason_data(up_to_race, force=False):
     path = get_2026_midseason_path(up_to_race)
-    if not os.path.exists(path):
-        get_midseason_standings(2026, up_to_race).to_csv(path, index=False)
+    if force or not os.path.exists(path):
+        standings = get_midseason_standings(2026, up_to_race)
+        if standings is None:
+            raise FileNotFoundError(
+                f"No mid-season results available yet for 2026 through race {up_to_race}."
+            )
+        standings.to_csv(path, index=False)
     return path
 
 
