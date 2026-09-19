@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "buildCommand": "mkdir -p public && cp -R static/. public/",
+  "outputDirectory": "public"
+}

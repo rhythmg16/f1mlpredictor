@@ -1,5 +1,6 @@
 f1cache/
 cache/
+public/
 *.sqlite
 *.csv
 __pycache__/

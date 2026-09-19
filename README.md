@@ -5,17 +5,30 @@ I was originally using Jupyter Notebook but switched to a .py file in vscode due
 
 ## Website
 
-The predictions UI is a static HTML / CSS / JavaScript frontend served by Flask.
+The UI is HTML / CSS / JavaScript. Your **Python model is unchanged** — it still does all the predicting.
+
+### Local (live model via Flask)
 
 ```bash
 pip install -r requirements.txt
 python app.py
 ```
 
-Then open http://127.0.0.1:5000
+Open http://127.0.0.1:5000
+
+### Vercel (static hosting)
+
+Vercel serves the frontend plus a precomputed `predictions.json` from your Python model:
+
+```bash
+python generate_predictions.py
+```
+
+Then commit/push `static/predictions.json` (and redeploy). On Vercel the site loads that file; locally Flask can still use the live `/api/predictions` endpoint.
 
 - `/` — championship predictor site
-- `/api/predictions?year=2026` — JSON predictions using the latest completed race automatically
+- `/predictions.json` — latest model output (for Vercel)
+- `/api/predictions?year=2026` — live predictions when running Flask locally
 - `/api/season?year=2026` — current/next race from the live calendar
 
-The site reads the FastF1 schedule and always predicts from the most recent completed race, so you do not need to bump the race number by hand.
+The model reads the FastF1 schedule and predicts from the most recent completed race when you generate or run Flask.

@@ -1,0 +1,327 @@
+{
+  "year": 2026,
+  "up_to_race": 14,
+  "auto": true,
+  "season": {
+    "year": 2026,
+    "latest_completed_race": 14,
+    "latest_completed_name": "Spanish Grand Prix",
+    "next_race": 15,
+    "next_race_name": "Azerbaijan Grand Prix",
+    "next_race_date": "2026-09-26 11:00:00+00:00",
+    "total_races": 23
+  },
+  "mae": 20.87,
+  "predictors": [
+    "points_so_far",
+    "avg_points_per_race",
+    "current_rank",
+    "PreviousPoints"
+  ],
+  "drivers": [
+    {
+      "Season": 2026,
+      "Abbreviation": "ANT",
+      "FullName": "Kimi Antonelli",
+      "TeamName": "Mercedes",
+      "PreviousPoints": 150.0,
+      "current_rank": 1,
+      "predicted_points": 397.1,
+      "predicted_rank": 1
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "RUS",
+      "FullName": "George Russell",
+      "TeamName": "Mercedes",
+      "PreviousPoints": 319.0,
+      "current_rank": 2,
+      "predicted_points": 282.9,
+      "predicted_rank": 2
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "NOR",
+      "FullName": "Lando Norris",
+      "TeamName": "McLaren",
+      "PreviousPoints": 423.0,
+      "current_rank": 4,
+      "predicted_points": 259.7,
+      "predicted_rank": 3
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "HAM",
+      "FullName": "Lewis Hamilton",
+      "TeamName": "Ferrari",
+      "PreviousPoints": 156.0,
+      "current_rank": 3,
+      "predicted_points": 259.4,
+      "predicted_rank": 4
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "VER",
+      "FullName": "Max Verstappen",
+      "TeamName": "Red Bull Racing",
+      "PreviousPoints": 421.0,
+      "current_rank": 6,
+      "predicted_points": 229.6,
+      "predicted_rank": 5
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "LEC",
+      "FullName": "Charles Leclerc",
+      "TeamName": "Ferrari",
+      "PreviousPoints": 242.0,
+      "current_rank": 5,
+      "predicted_points": 221.3,
+      "predicted_rank": 6
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "PIA",
+      "FullName": "Oscar Piastri",
+      "TeamName": "McLaren",
+      "PreviousPoints": 410.0,
+      "current_rank": 7,
+      "predicted_points": 179.2,
+      "predicted_rank": 7
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "HAD",
+      "FullName": "Isack Hadjar",
+      "TeamName": "Red Bull Racing",
+      "PreviousPoints": 51.0,
+      "current_rank": 8,
+      "predicted_points": 155.5,
+      "predicted_rank": 8
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "LAW",
+      "FullName": "Liam Lawson",
+      "TeamName": "Racing Bulls",
+      "PreviousPoints": 38.0,
+      "current_rank": 9,
+      "predicted_points": 91.7,
+      "predicted_rank": 9
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "GAS",
+      "FullName": "Pierre Gasly",
+      "TeamName": "Alpine",
+      "PreviousPoints": 22.0,
+      "current_rank": 10,
+      "predicted_points": 56.5,
+      "predicted_rank": 10
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "LIN",
+      "FullName": "Arvid Lindblad",
+      "TeamName": "Racing Bulls",
+      "PreviousPoints": 0.0,
+      "current_rank": 11,
+      "predicted_points": 41.7,
+      "predicted_rank": 11
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "COL",
+      "FullName": "Franco Colapinto",
+      "TeamName": "Alpine",
+      "PreviousPoints": 0.0,
+      "current_rank": 12,
+      "predicted_points": 37.7,
+      "predicted_rank": 12
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "BEA",
+      "FullName": "Oliver Bearman",
+      "TeamName": "Haas F1 Team",
+      "PreviousPoints": 41.0,
+      "current_rank": 13,
+      "predicted_points": 27.3,
+      "predicted_rank": 13
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "BOR",
+      "FullName": "Gabriel Bortoleto",
+      "TeamName": "Audi",
+      "PreviousPoints": 19.0,
+      "current_rank": 15,
+      "predicted_points": 15.8,
+      "predicted_rank": 14
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "TSU",
+      "FullName": "Yuki Tsunoda",
+      "TeamName": "Racing Bulls",
+      "PreviousPoints": 30.0,
+      "current_rank": 21,
+      "predicted_points": 15.6,
+      "predicted_rank": 15
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "SAI",
+      "FullName": "Carlos Sainz",
+      "TeamName": "Williams",
+      "PreviousPoints": 64.0,
+      "current_rank": 17,
+      "predicted_points": 14.9,
+      "predicted_rank": 16
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "HUL",
+      "FullName": "Nico Hulkenberg",
+      "TeamName": "Audi",
+      "PreviousPoints": 51.0,
+      "current_rank": 16,
+      "predicted_points": 14.8,
+      "predicted_rank": 17
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "ALB",
+      "FullName": "Alexander Albon",
+      "TeamName": "Williams",
+      "PreviousPoints": 73.0,
+      "current_rank": 18,
+      "predicted_points": 14.7,
+      "predicted_rank": 18
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "ALO",
+      "FullName": "Fernando Alonso",
+      "TeamName": "Aston Martin",
+      "PreviousPoints": 56.0,
+      "current_rank": 19,
+      "predicted_points": 10.6,
+      "predicted_rank": 19
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "OCO",
+      "FullName": "Esteban Ocon",
+      "TeamName": "Haas F1 Team",
+      "PreviousPoints": 38.0,
+      "current_rank": 20,
+      "predicted_points": 9.3,
+      "predicted_rank": 20
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "STR",
+      "FullName": "Lance Stroll",
+      "TeamName": "Aston Martin",
+      "PreviousPoints": 33.0,
+      "current_rank": 24,
+      "predicted_points": 6.1,
+      "predicted_rank": 21
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "BOT",
+      "FullName": "Valtteri Bottas",
+      "TeamName": "Cadillac",
+      "PreviousPoints": 0.0,
+      "current_rank": 23,
+      "predicted_points": 2.6,
+      "predicted_rank": 22
+    },
+    {
+      "Season": 2026,
+      "Abbreviation": "PER",
+      "FullName": "Sergio Perez",
+      "TeamName": "Cadillac",
+      "PreviousPoints": 0.0,
+      "current_rank": 22,
+      "predicted_points": 2.2,
+      "predicted_rank": 23
+    }
+  ],
+  "constructors": [
+    {
+      "TeamName": "Mercedes",
+      "predicted_points": 680.0,
+      "predicted_rank": 1
+    },
+    {
+      "TeamName": "Ferrari",
+      "predicted_points": 480.7,
+      "predicted_rank": 2
+    },
+    {
+      "TeamName": "McLaren",
+      "predicted_points": 438.9,
+      "predicted_rank": 3
+    },
+    {
+      "TeamName": "Red Bull Racing",
+      "predicted_points": 385.1,
+      "predicted_rank": 4
+    },
+    {
+      "TeamName": "Racing Bulls",
+      "predicted_points": 149.0,
+      "predicted_rank": 5
+    },
+    {
+      "TeamName": "Alpine",
+      "predicted_points": 94.2,
+      "predicted_rank": 6
+    },
+    {
+      "TeamName": "Haas F1 Team",
+      "predicted_points": 36.6,
+      "predicted_rank": 7
+    },
+    {
+      "TeamName": "Audi",
+      "predicted_points": 30.6,
+      "predicted_rank": 8
+    },
+    {
+      "TeamName": "Williams",
+      "predicted_points": 29.6,
+      "predicted_rank": 9
+    },
+    {
+      "TeamName": "Aston Martin",
+      "predicted_points": 16.7,
+      "predicted_rank": 10
+    },
+    {
+      "TeamName": "Cadillac",
+      "predicted_points": 4.9,
+      "predicted_rank": 11
+    }
+  ],
+  "champion": {
+    "driver": {
+      "Season": 2026,
+      "Abbreviation": "ANT",
+      "FullName": "Kimi Antonelli",
+      "TeamName": "Mercedes",
+      "PreviousPoints": 150.0,
+      "current_rank": 1,
+      "predicted_points": 397.1,
+      "predicted_rank": 1
+    },
+    "constructor": {
+      "TeamName": "Mercedes",
+      "predicted_points": 680.0,
+      "predicted_rank": 1
+    }
+  }
+}

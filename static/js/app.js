@@ -212,30 +212,52 @@ function renderSeasonProgress(data) {
   seasonProgress.textContent = `Through R${data.up_to_race} ${completedName}${nextBit}`;
 }
 
-async function loadPredictions({ refresh = false } = {}) {
-  statusText.textContent = refresh ? "Refreshing live data…" : "Running model…";
-  statusText.classList.remove("error");
-  refreshBtn.disabled = true;
+function applyPredictionData(data, sourceLabel) {
+  renderChampion(data);
+  renderDrivers(data.drivers);
+  renderConstructors(data.constructors);
+  renderModelMeta(data);
+  renderSeasonProgress(data);
+  renderGarage(data);
+  statusText.textContent = `${sourceLabel} · through race ${data.up_to_race} · MAE ${data.mae} pts`;
+}
 
+async function fetchLivePredictions(refresh = false) {
   const params = new URLSearchParams({ year: "2026" });
   if (refresh) params.set("refresh", "1");
 
-  try {
-    const res = await fetch(`/api/predictions?${params.toString()}`);
-    const data = await res.json();
+  const res = await fetch(`/api/predictions?${params.toString()}`);
+  if (!res.ok) {
+    const data = await res.json().catch(() => ({}));
+    throw new Error(data.error || "Live API unavailable");
+  }
+  return res.json();
+}
 
-    if (!res.ok) {
-      throw new Error(data.error || "Request failed");
+async function fetchStaticPredictions() {
+  const res = await fetch("/predictions.json", { cache: "no-store" });
+  if (!res.ok) {
+    throw new Error("Could not load predictions.json");
+  }
+  return res.json();
+}
+
+async function loadPredictions({ refresh = false } = {}) {
+  statusText.textContent = refresh ? "Refreshing…" : "Loading predictions…";
+  statusText.classList.remove("error");
+  refreshBtn.disabled = true;
+
+  try {
+    try {
+      const live = await fetchLivePredictions(refresh);
+      applyPredictionData(live, refresh ? "Live refresh" : "Live model");
+      return;
+    } catch (_) {
+      // Vercel (and offline) serve the precomputed JSON from the Python model.
     }
 
-    renderChampion(data);
-    renderDrivers(data.drivers);
-    renderConstructors(data.constructors);
-    renderModelMeta(data);
-    renderSeasonProgress(data);
-    renderGarage(data);
-
-    statusText.textContent = `Auto-updated · through race ${data.up_to_race} · MAE ${data.mae} pts`;
+    const data = await fetchStaticPredictions();
+    applyPredictionData(data, "Cached model output");
   } catch (err) {
     statusText.textContent = err.message;
     statusText.classList.add("error");
